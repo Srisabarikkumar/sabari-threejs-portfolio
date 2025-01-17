@@ -277,7 +277,7 @@ export const footerSocialLinks = [
     {
         id: 2,
         icon: "assets/linkedin.png",
-        href: "https://www.linkedin.com/in/srisabarikkumar/",
+        href: "https://www.linkedin.com/in/srisabarikkumar-m-708b431a9/",
         alt: "linkedin"
     },
     {
