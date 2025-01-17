@@ -26,7 +26,7 @@ export const navLinks = [
     }
 ];
 
-export const resume = "https://res.cloudinary.com/dfzlizgq1/image/upload/v1737111054/Sabari_Resume_qake499z.pdf";
+export const resume = "https://res.cloudinary.com/dfzlizgq1/image/upload/v1737113208/Sabari_Resume_fqsquzjw.pdf";
 
 export const myProjects = [
     {
