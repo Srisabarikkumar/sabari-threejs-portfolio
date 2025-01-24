@@ -170,7 +170,7 @@ export const myProjects = [
             'Built with Next.js, Bootstrap, TypeScript and Unsplash API. Next.js Image Gallery app shows the various ways ' +
             'to use Next.js features like image optimization, server-side rendering, static generation, dynamic ' +
             'and ISR fetching.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        href: 'https://nextjs-13-4-image-gallery.vercel.app/',
         texture: '/textures/project/image-app.mp4',
         logo: '/assets/img-gallery.webp',
         logoStyle: {
@@ -221,25 +221,7 @@ export const workExperiences = [
             " and following best practices in all deliverables.",
         icon: 'https://companieslogo.com/img/orig/WIT-1453b096.png?t=1720244494',
         animation: 'salute',
-    },
-    // {
-    //     id: 2,
-    //     name: 'Certifications',
-    //     pos: 'Web Developer',
-    //     duration: '2020 - 2022',
-    //     title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    //     icon: '/assets/figma.svg',
-    //     animation: 'clapping',
-    // },
-    // {
-    //     id: 3,
-    //     name: 'Notion',
-    //     pos: 'Junior Web Developer',
-    //     duration: '2019 - 2020',
-    //     title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    //     icon: '/assets/notion.svg',
-    //     animation: 'salute',
-    // },
+    }
 ];
 
 export const certifications = [
