@@ -26,7 +26,7 @@ export const navLinks = [
     }
 ];
 
-export const resume = "https://docs.google.com/document/d/1XdyQ68ZOEMSzBlWupVsQtRMWARQQMhR6r-hK9c8GA_8/edit";
+export const resume = "/assets/Srisabari-resume.pdf";
 
 export const myProjects = [
     {
