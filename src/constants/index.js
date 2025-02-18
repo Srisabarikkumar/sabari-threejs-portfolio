@@ -26,7 +26,7 @@ export const navLinks = [
     }
 ];
 
-export const resume = "/assets/Srisabari-resume.pdf";
+export const resume = "/assets/Srisabarikkumar_Resume.pdf";
 
 export const myProjects = [
     {
