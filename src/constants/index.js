@@ -219,7 +219,7 @@ export const workExperiences = [
         title: "Coordinated with cross-functional teams, to ensure timely completion of tasks and meeting " +
             "project deadlines, and have demonstrated technical excellence through working as per the project requirements" +
             " and following best practices in all deliverables.",
-        icon: 'https://companieslogo.com/img/orig/WIT-1453b096.png?t=1720244494',
+        icon: 'https://en.wikipedia-on-ipfs.org/I/Wipro_logo.svg.png.webp',
         animation: 'salute',
     }
 ];
