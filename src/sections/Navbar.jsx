@@ -53,7 +53,7 @@ const Navbar = () => {
 
                     <button onClick={toggleMenu} className="text-neutral-400 hover:text-white focus:outline-none
                     sm:hidden flex">
-                        <img src={isOpen ? "src/assets/close.svg" : "src/assets/menu.svg"} alt="toggle" className="size-6"/>
+                        <img src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"} alt="toggle" className="size-6"/>
                     </button>
 
                     <nav className="sm:flex hidden">
