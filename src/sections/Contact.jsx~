@@ -71,7 +71,7 @@ const Contact = () => {
 
             <div className="relative min-h-screen flex items-center
             justify-center flex-col">
-                <img src="/assets/terminal.png" alt="terminal background"
+                <img src="/src/assets/terminal.png" alt="terminal background"
                      className="absolute inset-0 min-h-screen"/>
                 <div className="contact-container">
                     <h3 className="head-text">Contact Me</h3>
@@ -123,7 +123,7 @@ const Contact = () => {
                                 disabled={loading}>
                             {loading ? 'Sending...' : 'Send Message'}
 
-                            <img src="/assets/arrow-up.png" alt="arrow-up"
+                            <img src="/src/assets/arrow-up.png" alt="arrow-up"
                                  className="field-btn_arrow"/>
                         </button>
                     </form>

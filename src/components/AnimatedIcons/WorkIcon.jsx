@@ -1,6 +1,6 @@
 import {useRef, useState} from "react";
 import {Player} from "@lordicon/react";
-import code from "../../assets/wired-outline-1326-command-window-line-hover-blinking.json";
+import code from "../../LottieJsonIcons/wired-outline-1326-command-window-line-hover-blinking.json";
 
 const WorkIcon = ({  name, containerClass, isBeam }) => {
     const [isHovered, setIsHovered] = useState(false);

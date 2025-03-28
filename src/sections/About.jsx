@@ -3,8 +3,6 @@ import {useState} from "react";
 import {resume} from "../constants/index.js";
 import GradientText from "../components/HeroTextDesign.jsx";
 import AnimatedContent from "../components/AnimatedContent.jsx";
-import UseAnimations from "react-useanimations";
-import download from "react-useanimations/lib/download";
 import DocumentIcon from "../components/AnimatedIcons/DocumentIcon.jsx";
 
 const GradientUtil = ({text}) => {
@@ -47,7 +45,7 @@ const About = () => {
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/src/assets/grid1.png" alt="grid-1"
+                        <img src="/assets/grid1.png" alt="grid-1"
                              className="w-full sm:h-[276px] h-fit object-contain"/>
 
                         <div>
@@ -66,7 +64,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/src/assets/mern-stack.svg" alt="mern"
+                        <img src="/assets/mern-stack.svg" alt="mern"
                              className="w-3/4 sm:h-[276px] mx-auto h-fit object-contain"/>
 
                         <div>
@@ -90,7 +88,7 @@ const About = () => {
                                 backgroundImageOpacity={0.5}
                                 showAtmosphere
                                 showGraticules
-                                globeImageUrl="src/assets/earth-night.jpg"
+                                globeImageUrl="/assets/earth-night.jpg"
                                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                                 labelsData={[{
                                     lat: 11.016844,
@@ -118,7 +116,7 @@ const About = () => {
 
                 <div className="xl:col-span-2 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/src/assets/grid3.png" alt="grid-3"
+                        <img src="/assets/grid3.png" alt="grid-3"
                              className="w-full sm:h-[266px] h-fit object-contain"/>
 
                         <div>
@@ -136,7 +134,7 @@ const About = () => {
 
                 <div className="xl:col-span-1 xl:row-span-2">
                     <div className="grid-container">
-                        <img src="/src/assets/grid4.png" alt="grid-4"
+                        <img src="/assets/grid4.png" alt="grid-4"
                              className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"/>
 
                         <div className="space-y-2">
@@ -144,7 +142,7 @@ const About = () => {
                                 <GradientUtil text="Get in Touch" />
                             </p>
                             <div className="copy-container" onClick={handleCopy}>
-                                <img src={hasCopied ? "src/assets/tick.svg" : "src/assets/copy.svg"} alt="copy"/>
+                                <img src={hasCopied ? "/assets/tick.svg" : "/assets/copy.svg"} alt="copy"/>
                                 <p className="lg:text-2xl md:text-xl font-medium
                                 text-gray_gradient text-white">srisabarikkumar@gmail.com</p>
                             </div>

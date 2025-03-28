@@ -1,19 +1,19 @@
-import github from "../assets/wired-flat-2572-logo-github-hover-pinch.json";
-import linkedin from "../assets/wired-flat-2549-logo-linkedin-hover-pinch.json";
-import email from "../assets/system-solid-59-email-hover-email.json";
-import discord from "../assets/wired-flat-2566-logo-discord-hover-rotation.json";
-import trolley from "../assets/wired-flat-146-trolley-hover-jump.json";
-import document from "../assets/system-solid-50-file-hover-file-1.json";
-import home from "../assets/system-solid-41-home-hover-home-2.json";
-import twitter from "../assets/wired-flat-2544-logo-twitter-hover-pinch.json";
-import chat from "../assets/wired-flat-981-consultation-hover-conversation.json";
-import gallery from "../assets/wired-flat-54-photo-hover-mountains.json";
-import itDev from "../assets/wired-flat-680-it-developer-hover-pinch.json";
-import about from "../assets/system-solid-8-account-hover-account.json";
-import build from "../assets/system-solid-22-build-hover-build.json";
-import contact from "../assets/system-solid-47-chat-hover-chat.json";
-import job from "../assets/system-solid-178-work-hover-work.json";
-import spotify from "../assets/spotify.json";
+import github from "../LottieJsonIcons/wired-flat-2572-logo-github-hover-pinch.json";
+import linkedin from "../LottieJsonIcons/wired-flat-2549-logo-linkedin-hover-pinch.json";
+import email from "../LottieJsonIcons/system-solid-59-email-hover-email.json";
+import discord from "../LottieJsonIcons/wired-flat-2566-logo-discord-hover-rotation.json";
+import trolley from "../LottieJsonIcons/wired-flat-146-trolley-hover-jump.json";
+import document from "../LottieJsonIcons/system-solid-50-file-hover-file-1.json";
+import home from "../LottieJsonIcons/system-solid-41-home-hover-home-2.json";
+import twitter from "../LottieJsonIcons/wired-flat-2544-logo-twitter-hover-pinch.json";
+import chat from "../LottieJsonIcons/wired-flat-981-consultation-hover-conversation.json";
+import gallery from "../LottieJsonIcons/wired-flat-54-photo-hover-mountains.json";
+import itDev from "../LottieJsonIcons/wired-flat-680-it-developer-hover-pinch.json";
+import about from "../LottieJsonIcons/system-solid-8-account-hover-account.json";
+import build from "../LottieJsonIcons/system-solid-22-build-hover-build.json";
+import contact from "../LottieJsonIcons/system-solid-47-chat-hover-chat.json";
+import job from "../LottieJsonIcons/system-solid-178-work-hover-work.json";
+import spotify from "../../public/assets/spotify.json";
 
 export const navLinks = [
     {
@@ -48,7 +48,7 @@ export const navLinks = [
     }
 ];
 
-export const resume = "src/assets/Sabari-Resume.pdf";
+export const resume = "/assets/Sabari-Resume.pdf";
 
 export default document;
 
@@ -71,43 +71,43 @@ export const myProjects = [
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: 'src/assets/spotlight1.png',
+        spotlight: '/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
+                path: '/assets/tailwindcss.png',
 
             },
             {
                 id: 3,
                 name: "Shadcn UI",
-                path: 'src/assets/shadcn.svg',
+                path: '/assets/shadcn.svg',
             },
             {
                 id: 4,
                 name: 'Zustand',
-                path: 'src/assets/zustand.svg',
+                path: '/assets/zustand.svg',
             },
             {
                 id: 5,
                 name: 'Nodejs',
-                path: 'src/assets/nodejs.svg',
+                path: '/assets/nodejs.svg',
             },
             {
                 id: 6,
                 name: 'MongoDB',
-                path: 'src/assets/mongodb.svg',
+                path: '/assets/mongodb.svg',
             },
             {
                 id: 7,
                 name: 'Socketio',
-                path: 'src/assets/socket-io.svg',
+                path: '/assets/socket-io.svg',
             },
         ],
     },
@@ -127,32 +127,32 @@ export const myProjects = [
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: 'src/assets/spotlight1.png',
+        spotlight: '/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
+                path: '/assets/tailwindcss.png',
             },
             {
                 id: 3,
                 name: 'React Query',
-                path: 'src/assets/react-query-logo.png',
+                path: '/assets/react-query-logo.png',
             },
             {
                 id: 4,
                 name: 'Nodejs',
-                path: 'src/assets/nodejs.svg',
+                path: '/assets/nodejs.svg',
             },
             {
                 id: 5,
                 name: 'MongoDB',
-                path: 'src/assets/mongodb.svg',
+                path: '/assets/mongodb.svg',
             },
         ],
     },
@@ -172,32 +172,32 @@ export const myProjects = [
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: 'src/assets/spotlight2.png',
+        spotlight: '/assets/spotlight2.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
+                path: '/assets/tailwindcss.png',
             },
             {
                 id: 3,
                 name: 'Redux',
-                path: 'src/assets/redux.svg',
+                path: '/assets/redux.svg',
             },
             {
                 id: 4,
                 name: 'Nodejs',
-                path: 'src/assets/nodejs.svg',
+                path: '/assets/nodejs.svg',
             },
             {
                 id: 5,
                 name: 'MongoDB',
-                path: 'src/assets/mongodb.svg',
+                path: '/assets/mongodb.svg',
             },
         ],
     },
@@ -218,37 +218,37 @@ export const myProjects = [
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: 'src/assets/spotlight3.png',
+        spotlight: '/assets/spotlight3.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
+                path: '/assets/tailwindcss.png',
             },
             {
                 id: 3,
                 name: 'Zustand',
-                path: 'src/assets/zustand.svg',
+                path: '/assets/zustand.svg',
             },
             {
                 id: 4,
                 name: 'Nodejs',
-                path: 'src/assets/nodejs.svg',
+                path: '/assets/nodejs.svg',
             },
             {
                 id: 5,
                 name: 'MongoDB',
-                path: 'src/assets/mongodb.svg',
+                path: '/assets/mongodb.svg',
             },
             {
                 id: 5,
                 name: 'Socketio',
-                path: 'src/assets/socket-io.svg',
+                path: '/assets/socket-io.svg',
             },
         ],
     },
@@ -269,22 +269,22 @@ export const myProjects = [
             border: '0.2px solid rgba(208, 213, 221, 1)',
             boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
         },
-        spotlight: 'src/assets/spotlight4.png',
+        spotlight: '/assets/spotlight4.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'TailwindCSS',
-                path: 'src/assets/tailwindcss.png',
+                path: '/assets/tailwindcss.png',
             },
             {
                 id: 3,
                 name: 'Redux',
-                path: 'src/assets/redux.svg',
+                path: '/assets/redux.svg',
             },
         ],
     },
@@ -305,22 +305,22 @@ export const myProjects = [
             border: '0.2px solid #0E2D58',
             boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
-        spotlight: 'src/assets/spotlight5.png',
+        spotlight: '/assets/spotlight5.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: 'src/assets/react.svg',
+                path: '/assets/react.svg',
             },
             {
                 id: 2,
                 name: 'Bootstrap',
-                path: 'src/assets/bootstrap.svg',
+                path: '/assets/bootstrap.svg',
             },
             {
                 id: 3,
                 name: 'TypeScript',
-                path: 'src/assets/typescript.png',
+                path: '/assets/typescript.png',
             },
         ],
     }
@@ -348,7 +348,7 @@ export const workExperiences = [
         title: "Coordinated with cross-functional teams, to ensure timely completion of tasks and meeting " +
             "project deadlines, and have demonstrated technical excellence through working as per the project requirements" +
             " and following best practices in all deliverables.",
-        icon: 'src/assets/wipro-svgrepo-com.png',
+        icon: '/assets/wipro-svgrepo-com.png',
         animation: 'salute',
     }
 ];
@@ -373,7 +373,7 @@ export const certifications = [
         duration: '2024',
         title: 'Successfully completed a MERN fullstack developer certification from Guvi Geeks Network, IIT Madras. ' +
             'I am a certified MERN Stack developer and have worked on various real time projects.',
-        icon: 'src/assets/guvi.webp',
+        icon: '/assets/guvi.webp',
         animation: 'victory',
     },
 ];
