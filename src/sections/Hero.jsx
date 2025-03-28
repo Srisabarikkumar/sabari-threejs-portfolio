@@ -13,6 +13,12 @@ import Rings from "../components/Rings.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
 import About from "./About.jsx";
+import GlitchText from "../components/HeroTextDesign.jsx";
+import TrueFocus from "../components/HeroTextDesign.jsx";
+import ScrollReveal from "../components/ScrollReveal.jsx";
+import SplitText from "../components/SplitText.jsx";
+import ShinyText from "../components/ShinyText.jsx";
+import GradientText from "../components/HeroTextDesign.jsx";
 
 const Hero = () => {
     // const x = useControls('OfficeRoom', {
@@ -59,15 +65,41 @@ const Hero = () => {
 
     const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
+    const handleAnimationComplete = () => {
+        console.log('All letters have animated!');
+    };
+
     return (
         <section className="min-h-screen w-full flex flex-col relative" id="home">
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p className="sm:text-3xl text-xl font-medium
                 text-white text-center font-generalsans">
-                    Hi, I am Sabari
+                    {/*<ShinyText text="Hi, I am Sabari" disabled={false} speed={3} className='custom-class' />*/}
+
+
+                    <GradientText
+                        colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                        animationSpeed={8}
+                        showBorder={false}
+                        className=""
+                    >
+                        Hi, I am Sabari
+                    </GradientText>
+
                     <span className="waving-hand ">👋🏻</span>
                 </p>
-                <p className="hero_tag text-gray_gradient">MERN Stack Developer</p>
+
+                    <SplitText
+                        text="MERN Stack Developer"
+                        className="hero_tag text-green-600"
+                        delay={150}
+                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                        easing="easeOutCubic"
+                        threshold={0.2}
+                        rootMargin="-50px"
+                        onLetterAnimationComplete={handleAnimationComplete}
+                    />
             </div>
 
             <div className="size-full absolute inset-0">

@@ -4,6 +4,15 @@ import {OrbitControls} from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import Developer from "../components/Developer.jsx";
 import {Suspense, useState} from "react";
+// import {ScrollRevealUtil} from "./Projects.jsx";
+import DecryptedText from "../components/DecryptedText.jsx";
+import BlurText from "../components/BlurText.jsx";
+import AnimatedContent from "../components/AnimatedContent.jsx";
+
+
+const handleAnimationComplete = () => {
+    console.log('Animation completed!');
+};
 
 const Experience = () => {
     const [animationName, setAnimationName] = useState("idle");
@@ -11,8 +20,29 @@ const Experience = () => {
     return (
         <section className="c-space my-20" id="work">
             <div className="w-full text-white-600">
-                <h3 className="head-text">My Work</h3>
 
+                <h3>
+                    {/*<ScrollRevealUtil text="My Work" textClassName="head-text"/>*/}
+                    <BlurText
+                        text="My Work"
+                        delay={150}
+                        animateBy="words"
+                        direction="top"
+                        onAnimationComplete={handleAnimationComplete}
+                        className="text-2xl mb-8"
+                    />
+                </h3>
+
+                    <AnimatedContent
+                        distance={150}
+                        direction="horizontal"
+                        reverse={false}
+                        config={{ tension: 80, friction: 20 }}
+                        initialOpacity={0.2}
+                        animateOpacity
+                        scale={0.8}
+                        threshold={0.2}
+                    >
                 <div className="work-container">
                     <div className="work-canvas">
                         <Canvas>
@@ -57,7 +87,13 @@ const Experience = () => {
                                         <p className="text-sm mb-5">{item.pos} -- {item.duration}</p>
                                         <p className="group-hover:text-white transition
                                         ease-out duration-500">
-                                            {item.title}
+                                            <DecryptedText
+                                                text={item.title}
+                                                animateOn="hover"
+                                                speed={100}
+                                                revealDirection="center"
+                                                useOriginalCharsOnly={true}
+                                            />
                                         </p>
                                     </div>
                                 </div>
@@ -94,7 +130,14 @@ const Experience = () => {
                                             <p className="text-sm mb-5">{item.org} -- {item.duration}</p>
                                             <p className="group-hover:text-white transition
                                         ease-out duration-500">
-                                                {item.title}
+                                                <DecryptedText
+                                                    text={item.title}
+                                                    animateOn="hover"
+                                                    speed={100}
+                                                    revealDirection="center"
+                                                    useOriginalCharsOnly={true}
+                                                />
+
                                             </p>
                                         </div>
                                     </div>
@@ -103,6 +146,7 @@ const Experience = () => {
                         </div>
                     </div>
                 </div>
+                    </AnimatedContent>
             </div>
         </section>
     )

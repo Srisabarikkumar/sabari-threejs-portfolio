@@ -1,4 +1,6 @@
 import {footerSocialLinks} from "../constants/index.js";
+import PlayOnce from "../constants/FooterLinks.jsx";
+import FooterLinks from "../constants/FooterLinks.jsx";
 
 const Footer = () => {
     return (
@@ -11,15 +13,7 @@ const Footer = () => {
                 <p>Privacy Policy</p>
             </div>
 
-            <div className="flex gap-3">
-                {footerSocialLinks.map((link) => (
-                    <a key={link.id} href={link.href} target="_blank">
-                        <div className="social-icon">
-                            <img src={link.icon} alt={link.alt} className="size-1/2"/>
-                        </div>
-                    </a>
-                ))}
-            </div>
+            <FooterLinks />
 
             <p className="text-white-500">© Srisabarikkumar. All rights reserved.</p>
         </section>

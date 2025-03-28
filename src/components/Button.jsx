@@ -1,14 +1,17 @@
+import WorkIcon from "./AnimatedIcons/WorkIcon.jsx";
+
 const Button = ({ name, isBeam = false, containerClass }) => {
     return (
-        <button className={`btn ${containerClass}`}>
-            {isBeam && (
-                <span className="relative flex size-3">
-                    <span className="btn-ping" />
-                    <span className="btn-ping_dot" />
-                </span>
-            )}
-            {name}
-        </button>
+        // <button className={`btn ${containerClass}`}>
+        //     {isBeam && (
+        //         <span className="relative flex size-3">
+        //             <span className="btn-ping" />
+        //             <span className="btn-ping_dot" />
+        //         </span>
+        //     )}
+        //     {name}
+        // </button>
+        <WorkIcon name={name} isBeam={isBeam} containerClass={containerClass} />
     )
 }
 
