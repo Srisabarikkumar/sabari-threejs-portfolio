@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "install": "npm install --legacy-peer-deps"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -16,7 +15,7 @@
     "@lordicon/react": "^1.10.1",
     "@react-spring/web": "^9.7.5",
     "@react-three/drei": "^9.120.6",
-    "@react-three/fiber": "^8.17.12",
+    "@react-three/fiber": "^9.0.4",
     "@react-three/rapier": "^2.0.0",
     "framer-motion": "^12.4.10",
     "gsap": "^3.12.7",
